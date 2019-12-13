@@ -19,4 +19,4 @@ x=fractions.gcd(10,15)
 math.gcd()和其类似
 
 求最小公倍数(Least common multiple)
-def lcm(a,b): return abs(a * b)/fractions.gcd(a,b) if a and b else 0
+>def lcm(a,b): return abs(a * b)/fractions.gcd(a,b) if a and b else 0
