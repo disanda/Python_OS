@@ -16,3 +16,4 @@ import fractions
 x=fractions.gcd(10,15)
 #x为5
 ```
+math.gcd()和其类似
