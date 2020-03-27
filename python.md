@@ -1,4 +1,5 @@
-# fraction模块
+# python
+## fraction模块
 
 ```py
 from fractions import Fraction
@@ -8,7 +9,7 @@ float(x)
 #0.33333
 ```
 
-# gcd(a,b)
+## gcd(a,b)
 >返回a,b的最大公约数(Maximum common divisor)
 
 ```py
