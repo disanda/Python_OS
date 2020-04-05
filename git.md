@@ -11,11 +11,24 @@
 > git remote add origin xxx
 
 
-## 3.设置添加文件
+## 3.传输文件
 
 > git pull origin master #拉到本地第一次用
 > git push origin master #从本地上传
 
-## 4.其他
+## 4.断点续传
+大文件下载用git clone会断.
+建一个本地仓库(文件夹)，之后用fetch和checkout解决
+```
+>git mkdir xxx
+>cd xxx
+>git fetch https://xxxxx.git
+#可以反复用fetch续传，直到下载完毕，出现以下字样:
+#*branch HEAD -> FETCH_HEAD
+>git checkout FETCH_HEAD
+#项目就完整生成在本地了
+```
+
+## 其他
 
 https://blog.csdn.net/weixin_30699831/article/details/101982286?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task
