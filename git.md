@@ -7,14 +7,26 @@
 两种方法：
 - 下载项目
 >git clone xxx
-- 添加项目
+
+## 3.和本地共享
+
+- 初始化(第一次做)
+>git init
+
+- 添加项目(第一次需要)
 > git remote add origin xxx
 
+- 提交文件(.代表全部提交)
+>git add . 
 
-## 3.传输文件
+- 提交确认
+>git commit -m "first commit"
 
-> git pull origin master #拉到本地第一次用
+- 上传
 > git push origin master #从本地上传
+
+- 下载
+>git pull
 
 ## 4.断点续传
 大文件下载用git clone会断.
