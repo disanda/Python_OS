@@ -8,6 +8,39 @@
 - 下载项目
 >git clone xxx
 
+### 2.1 更新本地
+
+- 初始化(第一次做)
+>git init
+
+- 添加项目(第一次需要)
+> git remote add origin xxx
+
+- 本地没有修改过,只有master分之，直接更新
+>git pull
+
+### 2.2 本地代码有修改，多分支
+
+- 先切换到master分支
+>git checkout master
+
+- 更新master
+>git pull
+
+- 切换到另一分之 A
+>git checkout A
+
+- 把Master合并到 A
+>git merger master
+
+### 2.3 本地修改过但只有master
+
+- 直接覆盖本地代码
+> git reset --hard
+
+- 更新代码
+> git pull
+
 ## 3.和本地共享
 
 - 初始化(第一次做)
