@@ -59,7 +59,7 @@ conda env list
 activate xxx
 
 #放弃当前虚拟环境
-deactivate
+conda deactivate
 ```
 
 另外在jupter中切换环境还需要额外操作
