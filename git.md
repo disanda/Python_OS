@@ -77,3 +77,6 @@
 ## 其他
 
 https://blog.csdn.net/weixin_30699831/article/details/101982286?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task
+
+- 远程同步到本地
+https://www.cnblogs.com/delav/p/11118555.html
