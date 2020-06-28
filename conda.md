@@ -56,7 +56,7 @@ conda env --help
 conda env list
 
 #激活某个虚拟环境
-activate xxx
+conda activate xxx
 
 #放弃当前虚拟环境
 conda deactivate
