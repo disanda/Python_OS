@@ -87,8 +87,10 @@ conda create -n xxx_clone --clone xxx_origin
 
 #删除某个环境
 conda remove -n xxx --all
-```
 
+## 若未指定python版本会报错，这时需要如下删除命令
+conda env remove -n xxx(env_name)
+```
 
 ## 4.导入导出配置环境(.yml文件)
 >非常有用，比如你想帮朋友安装和你一模一样的环境，你可以直接导出一个配置文件给他，就能免除很多人力安装调试
