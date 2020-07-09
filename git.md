@@ -1,5 +1,7 @@
 # 同步本地和github上的项目
 
+>以下xxx指项目的地址，如果是自己的项目需要先创建才有地址
+
 ## 1.设置git账户密钥
 参考:https://www.cnblogs.com/xiaoxiaodevlog/p/10704977.html
 
@@ -74,8 +76,18 @@
 #项目就完整生成在本地了
 ```
 
-## 其他
+## 5.bug解决
+如果想更新本地项目和git项目的地址可以用如下：
+>git remote remove origin
 
+之后再本地项目文件夹下通过cmd添加新地址
+>git remote add origin xxx
+
+不然会报如下错误：
+>fatal: remote origin already exists.
+
+## 参考:
+- 全记录
 https://blog.csdn.net/weixin_30699831/article/details/101982286?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task
 
 - 远程同步到本地
