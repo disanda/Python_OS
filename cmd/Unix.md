@@ -27,6 +27,9 @@ ls -l | grep -c '^-' #正则表达式
 ls -l | wc -l #字数统计命令
 ```
 
-## 3.百度云盘
+## 3.复制前N个文件到其他文件夹
+>ls |head -n N |xargs -i cp -r {} /home/xuqiong/data/testimg/nosee/test
+
+## 4.百度云盘
 由于百度PCS API权限限制，程序只能存取百度云端/apps/bypy目录下面的文件和目录，一次只能上传2G
 https://github.com/houtianze/bypy
