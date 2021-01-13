@@ -86,6 +86,17 @@
 不然会报如下错误：
 >fatal: remote origin already exists.
 
+## 6.本地代码回倒某个提交时刻
+
+回到远程仓库的版本
+>git reset --hard FETCH_HEAD
+
+查找历史记录版本
+>git reflog
+
+回到某个位置，如HEAD@{2}
+>git reset --hard HEAD@{2} 
+
 ## 参考:
 - 全记录
 https://blog.csdn.net/weixin_30699831/article/details/101982286?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task
