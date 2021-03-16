@@ -3,7 +3,7 @@
 ## 1.压缩与解压缩
 ### zip
 - 压缩:
-zip -r xxx yyy # xxx是要压缩的文件夹，yyy是压缩文件的名字定义(不用后缀)
+zip -r xxx yyy # xxx是新的目标文件夹，yyy是压缩文件的名字(不用后缀)
 - 解压缩:
 unzip -o xxx.zip -d yyy #覆盖
 unzip -n xxx.zip -d yyy #不覆盖
