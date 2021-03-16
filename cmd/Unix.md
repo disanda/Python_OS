@@ -36,10 +36,12 @@ ls -l | wc -l #字数统计命令
 
 - 重启 & 查询
   > sudo shutdown -r now
+  
   > sudo fdisk -l 
   
 - 挂载到当前文件夹(如桌面)
   >mkdir usb_file
+  
   >sudo mount -t exfat -o iocharset=cp936 /dev/sdb1 ./usb_file
   - 这里的参数t 代表设备类型， 参数 -o 代便编码类型（上述编码格式支持中文）
 
