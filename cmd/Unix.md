@@ -43,7 +43,13 @@ ls -l | wc -l #字数统计命令
   >mkdir usb_file
   
   >sudo mount -t exfat -o iocharset=cp936 /dev/sdb1 ./usb_file
-  - 这里的参数t 代表设备类型， 参数 -o 代便编码类型（上述编码格式支持中文）
+  注： 这里的参数t 代表设备类型， 参数 -o 代便编码类型（上述编码格式支持中文）
+  
+- 卸载u盘
+
+  >sudo umount /dev/sdc1
+  
+  >sudo umount ./usb_file
 
 
 
