@@ -51,6 +51,7 @@ ls -l | wc -l #字数统计命令
   
   >sudo umount ./usb_file
 
+若卸载不掉，参考：https://www.cnblogs.com/ding2016/p/9605526.html
 
 
 
