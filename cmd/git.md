@@ -60,6 +60,8 @@
 - 上传
 > git push origin master #从本地上传
 
+> git push -u origin master #参数 -u 可以使后面pull和push不加其他参数
+
 - 下载
 >git pull
 
