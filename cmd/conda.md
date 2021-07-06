@@ -102,4 +102,8 @@ conda env export > environment.yml
 conda env create -f environment.yml
 ```
 
+## 5.server重装
+>bash anaconda.sh -u
+即加参数u
+
 https://www.jianshu.com/p/742dc4d8f4c5
