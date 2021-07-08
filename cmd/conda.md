@@ -108,6 +108,7 @@ conda env create -f environment.yml
 
 ## 6. Powershell 和 CMD 设置
 >conda init powershell
+
 https://www.cnblogs.com/dereen/p/ps_conda_env.html
 
 https://www.jianshu.com/p/742dc4d8f4c5
